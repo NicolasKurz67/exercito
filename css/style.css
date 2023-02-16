@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+.container-header {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* -------------------------- Social Medias --------------------------*/
+
+.container-header-box-info {
+    height: 75%;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.container-header-text {
+    cursor: pointer;
+}
+
+.container-header-text span, .container-header-text a {
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.container-header-text span:first-child {
+    text-transform: uppercase;
+}
+
+.container-header-social-medias {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-header-social-medias a {
+    font-weight: 300;
+}
+
+.container-header-social-medias a:hover {
+    text-decoration: none;
+}
+
+.container-header-social-medias-itens {
+    font-size: 0.8rem;
+}
+
+/* -------------------------- End Social Medias --------------------------*/
+
+/* -------------------------- Usefull Links --------------------------*/
+
+.container-header-usefull-links {
+    height: 60%;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-header-usefull-links a {
+    height: 2rem;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 0.8rem;
+    color: #c3c2c2;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition: 0.3s linear;
+}
+
+.container-header-usefull-links a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+main {
+    height: 90%;
+    width: 100%;
+    background: url("../img/oi.png") no-repeat center;
+    background-size: cover;
+}
